@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+    <body>
+
+    <h1 style="color: white;">choose the pill</h1>
+    <div>
+        <button type="button" id="matrix">
+            <h1>MATRIX</h1>
+        </button>
+        <button type="button" id="goa">
+            <h1>GOA</h1>
+        </button>
+    </div>
+
+    <style>
+        body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: black;
+}
+div{
+    display: flex;
+    gap: 20px;
+}
+button{
+    width: 140px;
+    height: 300px;
+    border-radius: 1000px;
+    border: none;
+}
+#matrix{
+    background:linear-gradient(blue 50% , gainsboro 50%);
+    transition: .25s;
+    cursor: pointer;
+}
+#goa{
+    background: linear-gradient(red 50% , gainsboro 50%);  
+    cursor: pointer; 
+    transition: .25s;
+}
+#matrix:hover{
+    transform: scale(0.01);
+    transition: .25s;
+    transition-delay:0.1s;
+}
+#goa:hover{
+    transform: scale(1.5);
+    transition: .25s;
+    transition-delay: 0.1s;
+}
+    </style>
+</body>
+</html>
