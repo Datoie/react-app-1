@@ -45,11 +45,11 @@ export const features = [
 export const company = [
     {
         id: 'hisotry',
-        title: 'hisory'
+        title: 'hisotry'
     },
     {
         id: 'oureTeam',
-        title: 'oure team'
+        title: 'our team'
     },
     {
         id: 'blog',
