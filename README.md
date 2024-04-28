@@ -1,6 +1,6 @@
 ## Hello There 👋!
 
-##Welcome to my landing page React app project! This project demonstrates a responsive design using React and Tailwind CSS.
+Welcome to my landing page React app project! This project demonstrates a responsive design using React and Tailwind CSS.
 
 ## Features ✨
 • Responsive layout for optimal viewing on all devices.
